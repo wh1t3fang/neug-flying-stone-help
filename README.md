@@ -35,4 +35,5 @@ In this example, the wiping process would be very slow as the device is not very
 [ 6005.528124] usb 3-1: SerialNumber: FSIJ-1.0.8-67255221
 [ 6005.530608] cdc_acm 3-1:1.0: ttyACM0: USB ACM device
 
+See this link for more info https://superuser.com/questions/899303/how-to-see-neug-fraucheky-true-random-number-generator  
 
