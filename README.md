@@ -1,7 +1,7 @@
 # neug-flying-stone-help
 When plugging the Neug Flying Stone TRNG into a Debian Linux machine it was detected as /dev/sdc because the device was in mass storage mode rather than USB CDC/ACM (Communication Device Class / Abstract Control Model) mode.  The following command worked:  
 
-eject /dev/sdc 
+sudo eject /dev/sdc 
 
 The device was now accesible on /dev/ttyACM0.  I could then use it to grab random data to wipe a hard drive like with the following command:
 
