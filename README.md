@@ -5,7 +5,7 @@ sudo eject /dev/sdc
 
 The device was now accesible on /dev/ttyACM0.  I could then use it to grab random data to wipe a hard drive like with the following command:
 
-sudo dd if=/dev/ttyACM0 of=/dev/sdb 
+sudo dd if=/dev/ttyACM0 of=/dev/sdb status=progress
 
 
 In this example, the wiping process would be very slow as the device is not very fast.  However, you could use this in other applications such as mixing into /dev/urandom to provide additional entropy.  The following is my dmesg output to help others with diagnosis.  
